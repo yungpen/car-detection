@@ -36,3 +36,11 @@ pip install -r requirements.txt
 
 3. Запустить сервис:
 streamlit run app.py
+---
+Структура проекта
+app.py — Веб-интерфейс на Streamlit.
+train.py — Скрипт для дообучения модели.
+convert.py — Скрипт конвертации аннотаций VisDrone.
+VisDrone.yaml — Конфигурация датасета.
+report.md — Отчет о результатах.
+requirements.txt — Список зависимостей.
