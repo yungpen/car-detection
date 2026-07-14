@@ -1,7 +1,7 @@
 # Car Detection (VisDrone)
 Сервис для детекции автотранспорта и пешеходов на аэрофотоснимках.
 
-**Доступен по адресу:** [Нажми сюда](https://car-detection-aqhzxgsqbr73brzrg86snp.streamlit.app/)
+**Доступен по адресу:** (https://car-detection-aqhzxgsqbr73brzrg86snp.streamlit.app/)
 
 ---
 
@@ -36,3 +36,12 @@ cd car-detection
 * .\venv\Scripts\activate
 * python -m pip install --upgrade pip
 * pip install -r requirements.txt
+### Запустить сервис:
+* streamlit run app.py
+### 📂 Структура проекта
+app.py — Веб-интерфейс на Streamlit.
+train.py — Скрипт для дообучения модели.
+convert.py — Скрипт конвертации аннотаций VisDrone.
+VisDrone.yaml — Конфигурация датасета и классов.
+report.md — Отчет о результатах и метриках.
+requirements.txt — Список зависимостей.
