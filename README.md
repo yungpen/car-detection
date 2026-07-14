@@ -31,17 +31,21 @@
 ```bash
 git clone https://github.com/yungpen/car-detection
 cd car-detection
-###  Настроить окружение (Windows PowerShell):
-* python -m venv venv
-* .\venv\Scripts\activate
-* python -m pip install --upgrade pip
-* pip install -r requirements.txt
-###  Запустить сервис:
-* streamlit run app.py
-###  📂 Структура проекта
+Настроить окружение (Windows PowerShell):
+code
+Powershell
+python -m venv venv
+.\venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+Запустить сервис:
+code
+Bash
+streamlit run app.py
+📂 Структура проекта
 app.py — Веб-интерфейс на Streamlit.
 train.py — Скрипт для дообучения модели.
 convert.py — Скрипт конвертации аннотаций VisDrone.
-VisDrone.yaml — Конфигурация датасета и классов.
-report.md — Отчет о результатах и метриках.
+VisDrone.yaml — Конфигурация датасета.
+report.md — Отчет о результатах.
 requirements.txt — Список зависимостей.
