@@ -1,17 +1,17 @@
 # Car Detection (VisDrone)
-Сервис для детекции автотранспорта и пешеходов на аэрофотоснимках.
+Сервис для детекции автотранспорта и пешеходов.
 
 **Доступен по адресу:** [тут](https://car-detection-aqhzxgsqbr73brzrg86snp.streamlit.app/)
 
 ---
 
-### 📦 Веса моделей
+###  Веса моделей
 *   **Обученная модель (best.pt):** [Скачать](https://github.com/yungpen/car-detection/blob/main/runs/detect/train/weights/best.pt)
 *   **Базовая модель:** [yolo11n.pt](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt)
 
 ---
 
-### 📊 Результаты (Metrics)
+###  Результаты (Metrics)
 Модель дообучена на датасете VisDrone (5 эпох).
 
 | Класс | Images | Instances | mAP50 | mAP50-95 |
@@ -22,7 +22,7 @@
 
 ---
 
-### ⚙️ Инструкция по установке и запуску
+###  Инструкция по установке и запуску
 
 #### 1. **Клонирование репозитория**
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-📂 Структура проекта
+Структура проекта
 
   - app.py — Веб-интерфейс на Streamlit.
   - train.py — Скрипт для дообучения модели.
