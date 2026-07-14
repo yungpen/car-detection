@@ -5,13 +5,13 @@
 
 ---
 
-### Веса моделей
+### 📦 Веса моделей
 *   **Обученная модель (best.pt):** [Скачать по этой ссылке](https://github.com/yungpen/car-detection/blob/main/runs/detect/train/weights/best.pt)
 *   **Базовая модель:** [yolo11n.pt](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt)
 
 ---
 
-### Результаты (Metrics)
+### 📊 Результаты (Metrics)
 Модель дообучена на датасете VisDrone (5 эпох).
 
 | Класс | Images | Instances | mAP50 | mAP50-95 |
@@ -22,25 +22,27 @@
 
 ---
 
-### Инструкция по установке и запуску
-```text
-1. Клонировать репозиторий и перейти в него:
+### ⚙️ Инструкция по установке
+
+#### 1. Клонирование репозитория
+```bash
 git clone https://github.com/yungpen/car-detection
 cd car-detection
-
-2. Настроить окружение (Windows PowerShell):
+2. Настройка окружения (Windows PowerShell)
+code
+Powershell
 python -m venv venv
 .\venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-
-3. Запустить сервис:
+3. Запуск сервиса
+code
+Bash
 streamlit run app.py
----
-Структура проекта
+📂 Структура проекта
 app.py — Веб-интерфейс на Streamlit.
 train.py — Скрипт для дообучения модели.
 convert.py — Скрипт конвертации аннотаций VisDrone.
-VisDrone.yaml — Конфигурация датасета.
-report.md — Отчет о результатах.
-requirements.txt — Список зависимостей.
+VisDrone.yaml — Конфигурация путей и классов.
+report.md — Отчет о результатах и метриках.
+requirements.txt — Список всех зависимостей.
