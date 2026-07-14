@@ -1,0 +1,5 @@
+venv/
+data/
+datasets/
+runs/detect/train/args.yaml
+runs/detect/train/events*
