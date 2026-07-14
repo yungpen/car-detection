@@ -4,7 +4,7 @@
 **Доступен по адресу:** https://car-detection-aqhzxgsqbr73brzrg86snp.streamlit.app/
 
 ### Веса моделей
-*   **Обученная модель (YOLO11n-VisDrone):** [ВСТАВЬ_ССЫЛКУ_НА_GOOGLE_ДИСК_ЗДЕСЬ]
+*   **Обученная модель (YOLO11n-VisDrone):** https://github.com/yungpen/car-detection/blob/main/runs/detect/train/weights/best.pt
 *   **Базовая модель:** [yolo11n.pt](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt)
 
 ### Стек технологий
@@ -19,7 +19,7 @@
 ### Подготовка к установке
 Клонировать репозиторий и перейти в него в командной строке:
 ```bash
-git clone https://github.com/твой_логин/MyCarDetection
+git clone https://github.com/yungpen/car-detection
 cd MyCarDetection
 
 Локальный запуск
