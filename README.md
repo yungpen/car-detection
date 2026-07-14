@@ -6,8 +6,8 @@
 ---
 
 ### 📦 Веса моделей
-*   **Обученная модель (best.pt):** [Скачать по этой ссылке](https://github.com/yungpen/car-detection/blob/main/runs/detect/train/weights/best.pt)
-*   **Базовая модель:** [yolo11n.pt](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt)
+* **Обученная модель (best.pt):** [Скачать](https://github.com/yungpen/car-detection/blob/main/runs/detect/train/weights/best.pt)
+* **Базовая модель:** [yolo11n.pt](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt)
 
 ---
 
@@ -28,21 +28,21 @@
 ```bash
 git clone https://github.com/yungpen/car-detection
 cd car-detection
-2. Настройка окружения (Windows PowerShell)
-code
-Powershell
+#### 2. **Настройка окружения**
+```powershell
 python -m venv venv
 .\venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-3. Запуск сервиса
-code
-Bash
+
+#### 3. **Запуск сервиса**
+```bash
 streamlit run app.py
-📂 Структура проекта
-app.py — Веб-интерфейс на Streamlit.
-train.py — Скрипт для дообучения модели.
-convert.py — Скрипт конвертации аннотаций VisDrone.
-VisDrone.yaml — Конфигурация путей и классов.
-report.md — Отчет о результатах и метриках.
-requirements.txt — Список всех зависимостей.
+#### **Структура проекта**
+app.py           - Веб-интерфейс на Streamlit.
+train.py         - Скрипт для дообучения модели.
+convert.py       - Скрипт конвертации аннотаций VisDrone.
+VisDrone.yaml    - Конфигурация путей и классов.
+report.md        - Отчет о результатах и метриках.
+requirements.txt - Список всех зависимостей.
+best.pt          - Обученные веса модели YOLO11n.
